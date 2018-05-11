@@ -1,0 +1,405 @@
+{
+	"info": {
+		"_postman_id": "ea7438fa-6797-482f-add7-7bb453c0cb85",
+		"name": "Stellar Horizon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/accounts/{{account}}",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"accounts",
+						"{{account}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/assets",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"assets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Effects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/effects",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"effects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Effects for account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/accounts/{{account_id}}/effects",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"accounts",
+						"{{account_id}}",
+						"effects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Effects for ledger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/ledgers/{{ledger}}/effects",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ledgers",
+						"{{ledger}}",
+						"effects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Effects for transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/transactions/{{transaction}}/effects",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{transaction}}",
+						"effects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ledgers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/ledgers",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ledgers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Offers for account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/accounts/{{account}}/offers",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"accounts",
+						"{{account}}",
+						"offers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/payments",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments for account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/accounts/{{account}}/payments",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"accounts",
+						"{{account}}",
+						"payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments for ledger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/ledgers/{{ledger}}/payments",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ledgers",
+						"{{ledger}}",
+						"payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payments for transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/transactions/{{transaction}}/payments",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{transaction}}",
+						"payments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single ledger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/ledgers/{{ledger}}",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ledgers",
+						"{{ledger}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Single transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/transactions/{{transaction}}",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions",
+						"{{transaction}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/transactions",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transactions for account",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/accounts/{{account}}/transactions",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"accounts",
+						"{{account}}",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transactions for ledger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://{{host}}/ledgers/{{ledger}}/transactions",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ledgers",
+						"{{ledger}}",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "0a3aa0a3-6a72-45db-b6d0-b4a95d9f76f7",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "fbd3b348-d6bf-49ec-ae11-8b8bd3f9c96e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "c4c0d31a-db82-4b34-8afd-2b005ecaaef8",
+			"key": "domain",
+			"value": "",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "28573f44-e628-41c6-a7f6-2ec572a28b96",
+			"key": "account",
+			"value": "",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "8f89eade-d855-46ad-a8b0-a372b48bfc81",
+			"key": "ledger",
+			"value": "",
+			"type": "string",
+			"description": ""
+		},
+		{
+			"id": "27d490e7-f350-4fa1-b73b-db7aeae426d5",
+			"key": "transaction",
+			"value": "",
+			"type": "string",
+			"description": ""
+		}
+	]
+}
